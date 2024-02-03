@@ -1,0 +1,1 @@
+Project to do some analysis on Kaggle data sets using duckdb and dbt-duckdb for the modeling
