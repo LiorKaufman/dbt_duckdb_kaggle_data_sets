@@ -1,0 +1,13 @@
+kaggle_data_sets:
+  outputs:
+    dev:
+      type: duckdb
+      path: kaggle_dataset.db
+      threads: 1
+
+    prod:
+      type: duckdb
+      path: prod.duckdb
+      threads: 4
+
+  target: dev
